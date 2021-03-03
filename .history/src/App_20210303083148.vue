@@ -1,12 +1,10 @@
-<template>
-  <StoredResources :resources="storedResources" />
-</template>
+<template> </template>
 
 <script>
-import StoredResources from './components/learning-resources/StoredResources';
+import LearningResource from './components/learning-resources/LearningResource';
 
 export default {
-  components: { StoredResources },
+  components: { LearningResource },
   data() {
     return {
       storedResources: [
